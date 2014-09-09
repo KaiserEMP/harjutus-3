@@ -9,6 +9,13 @@
 
 <body>
 
+<?php
+    $variable = 20;
+    echo $variable;
+    // Lisan veebilehitsejas parema loetavuse saamiseks reamurdmise elemendi:
+    echo "<br>";
+?>
+
 </body>
 
 </html>
