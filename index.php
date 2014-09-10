@@ -37,7 +37,11 @@
 		$student3 = "<li>asdasdasd</li>";
 		$student4 = "<li>1231231</li>";
 		$student5 = "<li>Marasdasasdgit</li>";
+		$firstname = "<li>Kaido</li>";
+		$lastname = "<li>Soodla</li>";
+		$fullname = "<li>$firstname" . "$lastname</li>";
 
+			
 
 
 
@@ -51,7 +55,13 @@
 				<?php echo $student3; ?>
 				<?php echo $student4; ?>
 				<?php echo $student5; ?>
+				<?php echo $fullname; ?>
+
+
 			</ul>
+
+
+
 
 
 
