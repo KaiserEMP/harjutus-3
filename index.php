@@ -40,6 +40,7 @@
 		$firstname = "<li>Kaido</li>";
 		$lastname = "<li>Soodla</li>";
 		$fullname = "<li>$firstname" . "$lastname</li>";
+		$test = "Testmime";
 
 			
 
@@ -59,6 +60,10 @@
 
 
 			</ul>
+
+
+			
+		<?php echo "$test kas interpolatsioon töötab";?>
 
 
 
