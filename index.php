@@ -41,6 +41,8 @@
 		$lastname = "<li>Soodla</li>";
 		$fullname = "<li>$firstname" . "$lastname</li>";
 		$test = "Testmime";
+		$age = "15";
+
 
 			
 
@@ -64,6 +66,32 @@
 
 			
 		<?php echo "$test kas interpolatsioon töötab";?>
+		<?php echo "Ma olen {$age}-e aastane";?>
+
+
+
+
+		<h2>Täisarvud</h2>
+
+		<?php 
+		$nr1 = 5;
+		$nr2 = 10;
+		?>
+		<?php echo $nr1 * $nr2 ?>
+
+		<br>
+		<?php
+
+    // Kolm astmel seitse:
+    echo pow(3, 7);
+		?>
+<br>
+<?php
+    // Ruutjuur 25-st:
+    echo sqrt(25);
+?>
+
+
 
 
 
