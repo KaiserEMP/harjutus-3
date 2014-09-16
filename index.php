@@ -82,14 +82,36 @@
 		<br>
 		<?php
 
-    // Kolm astmel seitse:
-    echo pow(3, 7);
+		    // Kolm astmel seitse:
+		    echo pow(3, 7);
+				?>
+		<br>
+
+		<?php
+		    // Ruutjuur 25-st:
+		    echo sqrt(25);
 		?>
-<br>
-<?php
-    // Ruutjuur 25-st:
-    echo sqrt(25);
-?>
+
+		<h2>Numbri  ja stringi liitmine</h2>
+
+			<?php
+	   	 	echo 5 . " teksapüksid";
+			?>
+			<br>
+
+			<?php
+			    echo 5 + " teksapüksid";
+			?>
+			<br>
+			<?php
+   			 echo 5 + "5";
+			?>
+			<br>
+			<?php
+			    echo 5 + "7 teksapüksi";
+			?>
+
+
 
 
 
